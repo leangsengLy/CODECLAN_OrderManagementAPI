@@ -1,27 +1,33 @@
 ﻿using LSOrderManagementAPI.DataModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LSOrderManagementAPI.Model
 {
-    public class LSCUSTOMER : IBaseDataModel
+    public class LSCUSTOMER
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [StringLength(30),Required]
-        public string Name { get; set; }
+        public string NAME { get; set; }
         [StringLength(30)]
-        public string EnglishName { get; set; }
-        public bool Gender { get; set; }
+        public string EN_NAME { get; set; }
+        public bool GENDER { get; set; }
         [StringLength(100)]
-        public string Email { get; set; }
+        public string EMAIL { get; set; }
+        [StringLength(15),Required]
+        public string PHONE { get; set; }
         [StringLength(15)]
-        public string Phone { get; set; }
-        [StringLength(15)]
-        public string Phone1 { get; set; }
-        public int Address { get; set; }
+        public string PHONE1 { get; set; }
+        public string ADDRESS { get; set; }
         [StringLength(30),Required]
-        public string Username { get; set; }
+        public string CREATED_BY { get; set; }
+        public DateTime CREATED_DATE { get; set; }
+        public string UPDATED_BY { get; set; }
+        public DateTime? UPDATED_DATE { get; set; }
         [StringLength(30), Required]
-        public string Database { get; set; }
-        public DateTime DateNow { get; set; }
+        public string DB_CODE { get; set; }
+    
     }
 }
