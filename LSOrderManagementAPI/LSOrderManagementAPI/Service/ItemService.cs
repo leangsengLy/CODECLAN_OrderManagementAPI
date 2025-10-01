@@ -38,7 +38,7 @@ namespace LSOrderManagementAPI.Controllers
             data.CREATED_BY = model.Username;
             data.CREATED_DATE = DateTime.Now;
             _db.LSITEMs.Add(data);
-            await _db.SaveChangesAsync();
+            _db.SaveChanges();
             return MappingData(data);
         }
         public static async Task<ItemDto> Update(ItemDataModel model, ApplicationDbContext _db)

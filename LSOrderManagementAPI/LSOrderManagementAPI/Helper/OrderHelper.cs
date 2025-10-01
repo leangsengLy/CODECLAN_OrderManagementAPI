@@ -6,10 +6,10 @@ namespace LSOrderManagementAPI.Helper
     {
         public static class URL
         {
-            public static string List = "api/order/list";
-            public static string Create = "api/order/create";
-            public static string Update = "api/order/update";
-            public static string Delete = "api/v/delete";
+            public const string List = "api/order/list";
+            public const string Create = "api/order/create";
+            public const string Update = "api/order/update";
+            public const string Delete = "api/v/delete";
         }
         public static class Message
         {

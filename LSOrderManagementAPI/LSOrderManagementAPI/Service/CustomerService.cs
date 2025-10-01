@@ -45,7 +45,7 @@ namespace LSOrderManagementAPI.Controllers
             data.CREATED_BY = model.Username;
             data.CREATED_DATE = DateTime.Now;
             _db.LSCUSTOMERs.Add(data);
-            await _db.SaveChangesAsync();
+            _db.SaveChanges();
             return MappingData(data);
         }
         public static async Task<CustomerDto> Update(CustomerDataModel model, ApplicationDbContext _db)

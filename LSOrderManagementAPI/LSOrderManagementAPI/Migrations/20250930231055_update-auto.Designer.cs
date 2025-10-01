@@ -4,6 +4,7 @@ using LSOrderManagementAPI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LSOrderManagementAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250930231055_update-auto")]
+    partial class updateauto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -76,6 +79,7 @@ namespace LSOrderManagementAPI.Migrations
                         .HasColumnType("nvarchar(15)");
 
                     b.Property<string>("UPDATED_BY")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UPDATED_DATE")
@@ -121,6 +125,7 @@ namespace LSOrderManagementAPI.Migrations
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UPDATED_BY")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("UPDATED_DATE")

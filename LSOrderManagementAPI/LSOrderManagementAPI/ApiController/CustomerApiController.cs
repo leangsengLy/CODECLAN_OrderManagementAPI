@@ -28,7 +28,7 @@ namespace LSOrderManagementAPI.Controllers
             return base.Update(model);
         }
 
-        [HttpPost(CustomerHelper.URL.Delete)]
+        [HttpGet(CustomerHelper.URL.Delete)]
         public override Task<ActionResult> Delete(int id,string database)
         {
             return base.Delete(id, database);

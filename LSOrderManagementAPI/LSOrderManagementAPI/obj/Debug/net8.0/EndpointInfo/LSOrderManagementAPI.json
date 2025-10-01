@@ -276,7 +276,7 @@
       }
     },
     "/api/customer/delete": {
-      "post": {
+      "get": {
         "tags": [
           "CustomerApi"
         ],

@@ -6,13 +6,13 @@ namespace LSOrderManagementAPI.Model
 {
     public class LSCUSTOMER
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
         [StringLength(30),Required]
         public string NAME { get; set; }
         [StringLength(30)]
         public string EN_NAME { get; set; }
+        [Required]
         public bool GENDER { get; set; }
         [StringLength(100)]
         public string EMAIL { get; set; }
@@ -24,7 +24,7 @@ namespace LSOrderManagementAPI.Model
         [StringLength(30),Required]
         public string CREATED_BY { get; set; }
         public DateTime CREATED_DATE { get; set; }
-        public string UPDATED_BY { get; set; }
+        public string? UPDATED_BY { get; set; }
         public DateTime? UPDATED_DATE { get; set; }
         [StringLength(30), Required]
         public string DB_CODE { get; set; }

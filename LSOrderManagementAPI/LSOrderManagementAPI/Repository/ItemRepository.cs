@@ -39,6 +39,7 @@ namespace LSOrderManagementAPI.Controllers
                 {
                     return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
                 }
+                if (model.Qty < 1 || model.UnitPrice < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"Qty and Price must be bigger than 0"));
                 var result = await ItemService.Create(model, _db);
                 return Ok(result);
             }
@@ -65,6 +66,7 @@ namespace LSOrderManagementAPI.Controllers
                 {
                     return Ok(new LSApiResponse(ItemHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());
                 }
+                if (model.Qty < 1 || model.UnitPrice < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"Qty and Price must be bigger than 0"));
                 var result = await ItemService.Update(model, _db);
                 return Ok(result);
             }

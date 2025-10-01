@@ -69,7 +69,7 @@
     "ContainingType": "LSOrderManagementAPI.Controllers.CustomerApiController",
     "Method": "Delete",
     "RelativePath": "api/customer/delete",
-    "HttpMethod": "POST",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [

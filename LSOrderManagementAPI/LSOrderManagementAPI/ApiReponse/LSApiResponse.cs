@@ -7,7 +7,7 @@ namespace LSOrderManagementAPI.ApiReponse
         public ApiResponse apiResponse { get; set; }
         public HttpStatusCode StatusCode { get; set; }
 
-        public LSApiResponse(ApiResponse apiResponse, HttpStatusCode statusCode)
+        public LSApiResponse(ApiResponse apiResponse, HttpStatusCode statusCode = HttpStatusCode.BadRequest)
         {
             this.apiResponse = apiResponse;
             this.StatusCode = statusCode;
