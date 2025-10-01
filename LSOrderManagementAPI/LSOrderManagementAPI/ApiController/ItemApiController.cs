@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LSOrderManagementAPI.Controllers
 {
+    [ApiController]
     public class ItemApiController: ItemRepository
     {
         public ItemApiController(ApplicationDbContext dbContext) : base(dbContext)

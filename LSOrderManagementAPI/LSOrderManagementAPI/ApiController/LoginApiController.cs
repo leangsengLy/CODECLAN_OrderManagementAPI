@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LSOrderManagementAPI.Controllers
 {
+    [ApiController]
     public class LoginApiController : LoginRepository
     {
         public LoginApiController(ApplicationDbContext dbContext) : base(dbContext)

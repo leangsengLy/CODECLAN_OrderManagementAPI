@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LSOrderManagementAPI.Controllers
 {
+    [ApiController]
     public class CustomerApiController: CustomerRepository
     {
         public CustomerApiController(ApplicationDbContext dbContext) : base(dbContext)

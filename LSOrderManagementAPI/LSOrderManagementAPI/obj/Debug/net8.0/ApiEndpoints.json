@@ -45,34 +45,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Database",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Pages",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Records",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Search",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "OrderBy",
-        "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "OrderDir",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "filter",
+        "Type": "LSOrderManagementAPI.DataModel.Customer.CustomerFilterDataModel",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LSOrderManagementAPI.Controllers
 {
+    [ApiController]
     public class OrderApiController : OrderRepository
     {
         public OrderApiController(ApplicationDbContext dbContext) : base(dbContext)
