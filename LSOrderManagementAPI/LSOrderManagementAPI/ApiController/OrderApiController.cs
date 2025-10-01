@@ -1,5 +1,4 @@
-﻿using LSOrderManagementAPI.DataModel.Item;
-using LSOrderManagementAPI.DataModel.Order;
+﻿using LSOrderManagementAPI.DataModel.Order;
 using LSOrderManagementAPI.Helper;
 using Microsoft.AspNetCore.Mvc;
 
@@ -30,9 +29,9 @@ namespace LSOrderManagementAPI.Controllers
         }
 
         [HttpPost(OrderHelper.URL.Delete)]
-        public override Task<ActionResult> Delete(int id,string database)
+        public override Task<ActionResult> Delete(int id)
         {
-            return base.Delete(id, database);
+            return base.Delete(id);
         }
 
 

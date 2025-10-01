@@ -22,7 +22,6 @@ namespace LSOrderManagementAPI.Controllers
             list = list.Skip(filter.Pages - 1).Take(filter.Records).ToList();
             if (!string.IsNullOrEmpty(filter.OrderBy))
             {
-                filter.OrderBy += !string.IsNullOrEmpty(filter.OrderDir) ? $@" {filter.OrderDir} " : "";
                 list = list.AsQueryable().OrderBy(filter.OrderBy).ToList();
             }
             return list.Select(s=> MappingData(s, recordCount)).ToList();

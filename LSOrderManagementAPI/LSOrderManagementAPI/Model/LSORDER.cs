@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LSOrderManagementAPI.Model
 {
+    [Table("LSORDER")]
     public class LSORDER
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]

@@ -2,9 +2,10 @@
 {
     public class OrderFilterDataModel:IBaseFilterDataModel
     {
-        public DateTime? FromDate { get; set; }
-        public DateTime? ToDate { get; set; }
+        public DateTime? FromDate { get; set; } = DateTime.Today.AddDays(-30);
+        public DateTime? ToDate { get; set; } = DateTime.Today;
         public int CustomerId { get; set; }
+        public int Id { get; set; }
         public int Pages { get; set; }
         public int Records { get; set; }
         public string Search { get; set; }

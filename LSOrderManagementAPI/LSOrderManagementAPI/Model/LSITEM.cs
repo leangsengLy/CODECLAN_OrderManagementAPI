@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LSOrderManagementAPI.Model
 {
+    [Table("LSITEM")]
     public class LSITEM
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]

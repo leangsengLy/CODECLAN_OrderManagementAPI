@@ -19,6 +19,13 @@ namespace LSOrderManagementAPI.Controllers
         {
             try
             {
+                filter.Pages = filter.Pages > 0 ? filter.Pages : 1;
+                filter.Records = filter.Records > 0 ? filter.Records : 10;
+                filter.Database = !string.IsNullOrEmpty(filter.Database) ? filter.Database : LSGlobalHelper.String.Database;
+                if (string.IsNullOrEmpty(filter.Database))
+                {
+                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("Database is required."));
+                }
                 var result = await ItemService.List(filter, _db);
                 return Ok(result);
             }
@@ -33,8 +40,8 @@ namespace LSOrderManagementAPI.Controllers
             {
                 var msg = "";
                 model.Username = string.IsNullOrEmpty(model.Username) ? LSGlobalHelper.String.Username : model.Username;
-                model.Database = string.IsNullOrEmpty(model.Database) ? LSGlobalHelper.String.Database : model.Database;
                 if (string.IsNullOrEmpty(model.ProductName)) msg = "Name";
+                if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
                 if (!string.IsNullOrEmpty(msg))
                 {
                     return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
@@ -55,8 +62,8 @@ namespace LSOrderManagementAPI.Controllers
             {
                 var msg = "";
                 model.Username = string.IsNullOrEmpty(model.Username) ? LSGlobalHelper.String.Username : model.Username;
-                model.Database = string.IsNullOrEmpty(model.Database) ? LSGlobalHelper.String.Database : model.Database;
                 if (string.IsNullOrEmpty(model.ProductName)) msg = "Name";
+                if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
                 if (!string.IsNullOrEmpty(msg))
                 {
                     return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
@@ -81,6 +88,10 @@ namespace LSOrderManagementAPI.Controllers
             try
             {
                 if (id < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail("id is required!"));
+                if (string.IsNullOrEmpty(database))
+                {
+                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("Database is required."));
+                }
                 var data = _db.LSITEMs.FirstOrDefault(s => s.ID == id && s.DB_CODE == database);
                 if (data == null) return Ok(new LSApiResponse(ItemHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());
                 var result = await ItemService.Delete(id, database, _db);

@@ -21,6 +21,10 @@ namespace LSOrderManagementAPI.Controllers
         {
             try
             {
+                if (filter.FromDate > filter.ToDate)
+                {
+                    return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"From date should be smaller than to date!"));
+                }
                 var result = await OrderServie.List(filter, _db);
                 return Ok(result);
             }
@@ -33,13 +37,17 @@ namespace LSOrderManagementAPI.Controllers
         {
             try
             {
-                if (model.ItemIds == null || model.ItemIds.Count == 0)
+                if (model.OrderItems == null || model.OrderItems.Count == 0)
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"Customer must buy product at least one!"));
                 }
-                if (!_db.LSITEMs.Any(s => model.ItemIds.Contains(s.ID)))
+                if (!_db.LSITEMs.Any(s => model.OrderItems.Select(s => s.ItemIds).Contains(s.ID)))
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.NotFound).SetDetail($@"Some product no available in our stock."));
+                }
+                if (model.OrderItems.Select(s => s.Qty).Any(s => s <= 0))
+                {
+                    return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"The Qty must be more than 0."));
                 }
                 if (!_db.LSCUSTOMERs.Any(s => s.ID == model.CustomerId))
                 {
@@ -58,17 +66,21 @@ namespace LSOrderManagementAPI.Controllers
         {
             try
             {
-                if (model.ItemIds == null || model.ItemIds.Count == 0)
+                if (model.OrderItems == null || model.OrderItems.Count == 0)
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"Customer must buy product at least one!"));
                 }
-                if (!_db.LSITEMs.Any(s => model.ItemIds.Contains(s.ID)))
+                if (!_db.LSITEMs.Any(s => model.OrderItems.Select(s=>s.ItemIds).Contains(s.ID)))
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.NotFound).SetDetail($@"Some product no available in our stock."));
                 }
                 if (!_db.LSCUSTOMERs.Any(s => s.ID == model.CustomerId))
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.NotFound).SetDetail($@"Customer not found!"));
+                }
+                if (model.OrderItems.Select(s => s.Qty).Any(s => s <= 0))
+                {
+                    return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"The Qty must be more than 0."));
                 }
                 var find  = _db.LSORDERs.FirstOrDefault(s => s.ID == model.Id);
                 if(find == null)

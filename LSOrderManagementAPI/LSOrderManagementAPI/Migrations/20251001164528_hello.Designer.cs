@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LSOrderManagementAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250930231558_update")]
-    partial class update
+    [Migration("20251001164528_hello")]
+    partial class hello
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,60 @@ namespace LSOrderManagementAPI.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("LSOrderManagementAPI.Controllers.OrderQueryDto", b =>
+                {
+                    b.Property<string>("CustomerAddress")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerEMail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerEnglishName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("CustomerGender")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerPhone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CustomerPhone1")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Qty")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("SubTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("UnitPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.ToTable("OrderQueryDtos");
+                });
 
             modelBuilder.Entity("LSOrderManagementAPI.Model.LSCUSTOMER", b =>
                 {
@@ -134,6 +188,37 @@ namespace LSOrderManagementAPI.Migrations
                     b.ToTable("LSITEM", (string)null);
                 });
 
+            modelBuilder.Entity("LSOrderManagementAPI.Model.LSLOGIN", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<DateTime>("DATE_REGISTER")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EMAIL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PASSWORD")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UPDATED_DATE")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("USER_TYPE")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("LSLOGIN", (string)null);
+                });
+
             modelBuilder.Entity("LSOrderManagementAPI.Model.LSORDER", b =>
                 {
                     b.Property<int>("ID")
@@ -165,6 +250,9 @@ namespace LSOrderManagementAPI.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("ORDER_ID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Qty")
                         .HasColumnType("int");
 
                     b.HasKey("ID");

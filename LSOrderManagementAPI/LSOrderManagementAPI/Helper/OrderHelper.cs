@@ -9,7 +9,7 @@ namespace LSOrderManagementAPI.Helper
             public const string List = "api/order/list";
             public const string Create = "api/order/create";
             public const string Update = "api/order/update";
-            public const string Delete = "api/v/delete";
+            public const string Delete = "api/order/delete";
         }
         public static class Message
         {

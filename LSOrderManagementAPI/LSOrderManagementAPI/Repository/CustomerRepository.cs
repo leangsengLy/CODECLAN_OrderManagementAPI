@@ -21,6 +21,10 @@ namespace LSOrderManagementAPI.Controllers
             {
                 filter.Records = filter.Records > 0 ? filter.Records : 10;
                 filter.Pages = filter.Pages > 0 ? filter.Pages : 1;
+                if (string.IsNullOrEmpty(filter.Database))
+                {
+                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("Database is required."));
+                }
                 var result = await CustomerService.List(filter, _db);
                 return Ok(result);
             }
@@ -29,15 +33,15 @@ namespace LSOrderManagementAPI.Controllers
                 return Ok(new LSApiResponse(CustomerHelper.Message.InterServerError, HttpStatusCode.InternalServerError).SetDetail(e.Message));
             }
         }
-        public virtual async Task<ActionResult> Create(CustomerDataModel model)
+        public virtual async Task<ActionResult> Create([FromBody] CustomerDataModel model)
         {
             try
             {
                 var msg = "";
                 model.Database = string.IsNullOrEmpty(model.Database) ? LSGlobalHelper.String.Database : model.Database;
-                model.Username = string.IsNullOrEmpty(model.Username) ? LSGlobalHelper.String.Username : model.Username;
                 if (string.IsNullOrEmpty(model.Name)) msg = "Name";
                 if (string.IsNullOrEmpty(model.Email)) msg += ",Email";
+                if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
                 if (string.IsNullOrEmpty(model.Phone)) msg += ",Phone";
                 if (!string.IsNullOrEmpty(msg))
                 {
@@ -56,23 +60,23 @@ namespace LSOrderManagementAPI.Controllers
             }
         }
 
-        public virtual async Task<ActionResult> Update(CustomerDataModel model)
+        public virtual async Task<ActionResult> Update([FromBody] CustomerDataModel model)
         {
             try
             {
                 var msg = "";
                 model.Database = string.IsNullOrEmpty(model.Database) ? LSGlobalHelper.String.Database : model.Database;
-                model.Username = string.IsNullOrEmpty(model.Username) ? LSGlobalHelper.String.Username : model.Username;
                 if (string.IsNullOrEmpty(model.Name)) msg = "Name";
                 if (string.IsNullOrEmpty(model.Email)) msg += ",Email";
+                if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
                 if (string.IsNullOrEmpty(model.Phone)) msg += ",Phone";
                 if (!string.IsNullOrEmpty(msg))
                 {
                     return Ok(new LSApiResponse(CustomerHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
                 }
-                if (_db.LSCUSTOMERs.Any(s => s.EMAIL == model.Email && s.DB_CODE == model.Database))
+                if (!_db.LSCUSTOMERs.Any(s => s.EMAIL == model.Email && s.DB_CODE == model.Database))
                 {
-                    return Ok(new LSApiResponse(CustomerHelper.Message.EmailExisted, HttpStatusCode.InternalServerError).SetDetail());
+                    return Ok(new LSApiResponse(CustomerHelper.Message.NotFound, HttpStatusCode.InternalServerError).SetDetail());
                 }
                 var find = _db.LSCUSTOMERs.FirstOrDefault(s => s.ID == model.Id && s.DB_CODE == model.Database);
                 if (find == null) return Ok(new LSApiResponse(CustomerHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());
@@ -89,9 +93,13 @@ namespace LSOrderManagementAPI.Controllers
         {
             try
             {
-                if (id < 1) return Ok(new LSApiResponse(CustomerHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail("id is required!"));
+                if (id < 1) return Ok(new LSApiResponse(CustomerHelper.Message.InvalidData).SetDetail("id is required!"));
+                if (string.IsNullOrEmpty(database))
+                {
+                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("Database is required."));
+                }
                 var data = _db.LSCUSTOMERs.FirstOrDefault(s => s.ID == id && s.DB_CODE == database);
-                if(data==null) return Ok(new LSApiResponse(CustomerHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());
+                if(data==null) return Ok(new LSApiResponse(CustomerHelper.Message.NotFound).SetDetail());
                 var result = await CustomerService.Delete(id, database,_db);
                 return Ok(result);
             }
