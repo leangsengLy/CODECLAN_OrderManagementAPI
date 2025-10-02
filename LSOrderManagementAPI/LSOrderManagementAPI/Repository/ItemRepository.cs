@@ -44,9 +44,11 @@ namespace LSOrderManagementAPI.Controllers
                 if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
                 if (!string.IsNullOrEmpty(msg))
                 {
-                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
+                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail($@"There are Field ({msg}) are required!"));
                 }
-                if (model.Qty < 1 || model.UnitPrice < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"Qty and Price must be bigger than 0"));
+                var total = model.UnitPrice * model.Qty;
+                if(total != model.Total) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail($@"The total amount is invalid."));
+                if (model.Qty < 1 || model.UnitPrice < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail($@"Qty and Price must be bigger than 0"));
                 var result = await ItemService.Create(model, _db);
                 return Ok(result);
             }
@@ -66,14 +68,16 @@ namespace LSOrderManagementAPI.Controllers
                 if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
                 if (!string.IsNullOrEmpty(msg))
                 {
-                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
+                    return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail($@"There are Field ({msg}) are required!"));
                 }
-                if (model.Id < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail("Id is required."));
+                if (model.Id < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("Id is required."));
                 if (!_db.LSITEMs.Any(s => s.ID == model.Id && s.DB_CODE == model.Database))
                 {
-                    return Ok(new LSApiResponse(ItemHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());
+                    return Ok(new LSApiResponse(ItemHelper.Message.NotFound).SetDetail());
                 }
-                if (model.Qty < 1 || model.UnitPrice < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"Qty and Price must be bigger than 0"));
+                var total = model.UnitPrice * model.Qty;
+                if (total != model.Total) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail($@"The total amount is invalid."));
+                if (model.Qty < 1 || model.UnitPrice < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail($@"Qty and Price must be bigger than 0"));
                 var result = await ItemService.Update(model, _db);
                 return Ok(result);
             }
@@ -87,13 +91,13 @@ namespace LSOrderManagementAPI.Controllers
         {
             try
             {
-                if (id < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail("id is required!"));
+                if (id < 1) return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("id is required!"));
                 if (string.IsNullOrEmpty(database))
                 {
                     return Ok(new LSApiResponse(ItemHelper.Message.InvalidData).SetDetail("Database is required."));
                 }
                 var data = _db.LSITEMs.FirstOrDefault(s => s.ID == id && s.DB_CODE == database);
-                if (data == null) return Ok(new LSApiResponse(ItemHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());
+                if (data == null) return Ok(new LSApiResponse(ItemHelper.Message.NotFound).SetDetail());
                 var result = await ItemService.Delete(id, database, _db);
                 return Ok(result);
             }

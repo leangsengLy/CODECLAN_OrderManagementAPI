@@ -30,6 +30,7 @@ namespace LSOrderManagementAPI.Controllers
                         CUS.PHONE1 CustomerPhone1,
                         CUS.ADDRESS CustomerAddress,
                         ITM.PRODUCT_NAME ProductName,
+                        ITM.ID ProductId,
                         ORD_ITEM.QTY Qty,
                         ITM.UNIT_PRICE UnitPrice,
                         (ITM.UNIT_PRICE * ORD_ITEM.QTY) SubTotal
@@ -56,7 +57,7 @@ namespace LSOrderManagementAPI.Controllers
                     TotalAmount = s.Sum(s => s.SubTotal),
                     products = s.Select(pro => new Product()
                     {
-                        Id = pro.Id,
+                        Id = pro.ProductId,
                         Name = pro.ProductName,
                         Qty = pro.Qty,
                         UnitPrice = pro.UnitPrice,
@@ -79,7 +80,7 @@ namespace LSOrderManagementAPI.Controllers
             {
                 orderItem.Add(new LSORDER_ITEM()
                 {
-                    ITEM_ID = item.ItemIds,
+                    ITEM_ID = item.ItemId,
                     Qty = item.Qty,
                     ORDER_ID = data.ID
                 });
@@ -104,7 +105,7 @@ namespace LSOrderManagementAPI.Controllers
             {
                 addNew.Add(new LSORDER_ITEM()
                 {
-                    ITEM_ID = item.ItemIds,
+                    ITEM_ID = item.ItemId,
                     Qty = item.Qty,
                     ORDER_ID = data.ID
                 });

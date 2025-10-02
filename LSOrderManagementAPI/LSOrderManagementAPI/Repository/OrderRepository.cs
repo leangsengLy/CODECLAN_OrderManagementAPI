@@ -41,7 +41,7 @@ namespace LSOrderManagementAPI.Controllers
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"Customer must buy product at least one!"));
                 }
-                if (!_db.LSITEMs.Any(s => model.OrderItems.Select(s => s.ItemIds).Contains(s.ID)))
+                if (!_db.LSITEMs.Any(s => model.OrderItems.Select(s => s.ItemId).Contains(s.ID)))
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.NotFound).SetDetail($@"Some product no available in our stock."));
                 }
@@ -70,7 +70,7 @@ namespace LSOrderManagementAPI.Controllers
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.InvalidData).SetDetail($@"Customer must buy product at least one!"));
                 }
-                if (!_db.LSITEMs.Any(s => model.OrderItems.Select(s=>s.ItemIds).Contains(s.ID)))
+                if (!_db.LSITEMs.Any(s => model.OrderItems.Select(s=>s.ItemId).Contains(s.ID)))
                 {
                     return Ok(new LSApiResponse(OrderHelper.Message.NotFound).SetDetail($@"Some product no available in our stock."));
                 }

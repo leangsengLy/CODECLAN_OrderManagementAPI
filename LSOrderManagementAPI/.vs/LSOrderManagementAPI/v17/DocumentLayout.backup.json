@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\apicontroller\\itemapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\apicontroller\\itemapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\service\\orderservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\service\\orderservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\apicontroller\\orderapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,24 +23,48 @@
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\apicontroller\\loginapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\apicontroller\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\apicontroller\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\apicontroller\\itemapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\apicontroller\\itemapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\datamodel\\order\\orderdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\datamodel\\order\\orderdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\repository\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\repository\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\apicontroller\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\apicontroller\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\datamodel\\order\\orderfilterdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\datamodel\\order\\orderfilterdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\service\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\model\\lslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\model\\lslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\repository\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\apireponse\\lsapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\model\\lsorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\model\\lslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\model\\lslogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\model\\lsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\model\\lsitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,16 +91,8 @@
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\model\\lscustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\service\\orderservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\service\\orderservie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\service\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\lsordermanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -107,16 +119,8 @@
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\service\\userloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\service\\userloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\datamodel\\order\\orderdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\datamodel\\order\\orderdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\datamodel\\login\\logindatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -129,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\helper\\orderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\helper\\orderhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\datamodel\\order\\orderfilterdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|solutionrelative:lsordermanagementapi\\datamodel\\order\\orderfilterdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C088072-89AB-46E9-BC47-065A97644D54}|LSOrderManagementAPI\\LSOrderManagementAPI.csproj|d:\\codeclan_ordermanagementapi\\lsordermanagementapi\\lsordermanagementapi\\datamodel\\item\\itemfilterdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -166,45 +166,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Repository\\OrderRepository.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Repository\\OrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "OrderApiController.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwBAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:30:39.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerApiController.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:37:02.762Z",
+              "WhenOpened": "2025-09-30T23:29:42.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrderServie.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\OrderServie.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\OrderServie.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\OrderServie.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Service\\OrderServie.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:31:14.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Program.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Program.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T15:55:59.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ItemApiController.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\ItemApiController.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApiController\\ItemApiController.cs",
               "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\ItemApiController.cs",
               "RelativeToolTip": "LSOrderManagementAPI\\ApiController\\ItemApiController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:01:37.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDataModel.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:28:41.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerApiController.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\ApiController\\CustomerApiController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:37:02.762Z",
               "EditorCaption": ""
             },
             {
@@ -222,46 +261,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderApiController.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\ApiController\\OrderApiController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Repository\\OrderRepository.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwBsAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:29:42.844Z",
+              "WhenOpened": "2025-09-30T23:30:39.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Dto\\OrderDto.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Dto\\OrderDto.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Dto\\OrderDto.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Dto\\OrderDto.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:38:31.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderFilterDataModel.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:45:09.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\CustomerService.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\CustomerService.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\CustomerService.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Service\\CustomerService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T15:38:42.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Repository\\ItemRepository.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\ItemRepository.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Repository\\ItemRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAlwE8AAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T23:02:25.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LSLOGIN.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSLOGIN.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Model\\LSLOGIN.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSLOGIN.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\Model\\LSLOGIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T14:10:35.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Repository\\CustomerRepository.cs",
               "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\CustomerRepository.cs",
               "RelativeToolTip": "LSOrderManagementAPI\\Repository\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T15:38:56.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Program.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Program.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Program.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAswEEAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LSOrderManagementAPI\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T15:55:59.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T16:14:38.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "LoginRepository.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\LoginRepository.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Repository\\LoginRepository.cs",
@@ -269,38 +369,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\Repository\\LoginRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T14:18:36.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T14:18:36.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomerService.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\CustomerService.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\CustomerService.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\CustomerService.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Service\\CustomerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:38:42.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemRepository.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\ItemRepository.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Repository\\ItemRepository.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Repository\\ItemRepository.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Repository\\ItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:02:25.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "LSApiResponse.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApiReponse\\LSApiResponse.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApiReponse\\LSApiResponse.cs",
@@ -308,12 +381,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\ApiReponse\\LSApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T00:03:52.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T00:03:52.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\TokenService.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\TokenService.cs",
@@ -321,12 +393,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\Service\\TokenService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAIAwwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T15:59:44.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-01T15:59:44.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "LSORDER_ITEM.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSORDER_ITEM.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Model\\LSORDER_ITEM.cs",
@@ -334,12 +405,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\Model\\LSORDER_ITEM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:43:47.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:43:47.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "LSORDER.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSORDER.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Model\\LSORDER.cs",
@@ -347,25 +417,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\Model\\LSORDER.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:43:32.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:43:32.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LSLOGIN.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSLOGIN.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Model\\LSLOGIN.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSLOGIN.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Model\\LSLOGIN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T14:10:35.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "LSITEM.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSITEM.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Model\\LSITEM.cs",
@@ -373,12 +429,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\Model\\LSITEM.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADwvxAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:43:26.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:43:26.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "LSCUSTOMER.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Model\\LSCUSTOMER.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Model\\LSCUSTOMER.cs",
@@ -386,36 +441,11 @@
               "RelativeToolTip": "LSOrderManagementAPI\\Model\\LSCUSTOMER.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:42:14.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:42:14.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderServie.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\OrderServie.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\OrderServie.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\OrderServie.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Service\\OrderServie.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAhwA0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:31:14.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\ApplicationDbContext.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T16:14:38.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ItemService.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\ItemService.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\ItemService.cs",
@@ -427,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "LoginService.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\LoginService.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\LoginService.cs",
@@ -451,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\appsettings.json",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\appsettings.json",
@@ -463,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "LSOrderManagementAPI.http",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI.http",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\LSOrderManagementAPI.http",
@@ -475,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "LoginHelper.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Helper\\LoginHelper.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Helper\\LoginHelper.cs",
@@ -523,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "20251001145719_add-title.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Migrations\\20251001145719_add-title.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Migrations\\20251001145719_add-title.cs",
@@ -534,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "UserLoginService.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Service\\UserLoginService.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Service\\UserLoginService.cs",
@@ -546,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Dto\\LoginDto.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Dto\\LoginDto.cs",
@@ -558,31 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Dto\\OrderDto.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\Dto\\OrderDto.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Dto\\OrderDto.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\Dto\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:38:31.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "OrderDataModel.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\DataModel\\Order\\OrderDataModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:28:41.43Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "LoginDataModel.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Login\\LoginDataModel.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\DataModel\\Login\\LoginDataModel.cs",
@@ -594,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ItemDataModel.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Item\\ItemDataModel.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\DataModel\\Item\\ItemDataModel.cs",
@@ -606,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "OrderHelper.cs",
               "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\Helper\\OrderHelper.cs",
               "RelativeDocumentMoniker": "LSOrderManagementAPI\\Helper\\OrderHelper.cs",
@@ -615,18 +621,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-30T23:29:36.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "OrderFilterDataModel.cs",
-              "DocumentMoniker": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
-              "RelativeDocumentMoniker": "LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
-              "ToolTip": "D:\\CODECLAN_OrderManagementAPI\\LSOrderManagementAPI\\LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
-              "RelativeToolTip": "LSOrderManagementAPI\\DataModel\\Order\\OrderFilterDataModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T23:45:09.855Z"
             },
             {
               "$type": "Document",

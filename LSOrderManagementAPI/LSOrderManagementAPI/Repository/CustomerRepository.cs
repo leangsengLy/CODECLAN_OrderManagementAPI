@@ -38,7 +38,7 @@ namespace LSOrderManagementAPI.Controllers
             try
             {
                 var msg = "";
-                model.Database = string.IsNullOrEmpty(model.Database) ? LSGlobalHelper.String.Database : model.Database;
+                model.Username = string.IsNullOrEmpty(model.Username) ? LSGlobalHelper.String.Username : model.Username;
                 if (string.IsNullOrEmpty(model.Name)) msg = "Name";
                 if (string.IsNullOrEmpty(model.Email)) msg += ",Email";
                 if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
@@ -65,7 +65,7 @@ namespace LSOrderManagementAPI.Controllers
             try
             {
                 var msg = "";
-                model.Database = string.IsNullOrEmpty(model.Database) ? LSGlobalHelper.String.Database : model.Database;
+                model.Username = string.IsNullOrEmpty(model.Username) ? LSGlobalHelper.String.Username : model.Username;
                 if (string.IsNullOrEmpty(model.Name)) msg = "Name";
                 if (string.IsNullOrEmpty(model.Email)) msg += ",Email";
                 if (string.IsNullOrEmpty(model.Database)) msg += ",Database";
@@ -74,9 +74,9 @@ namespace LSOrderManagementAPI.Controllers
                 {
                     return Ok(new LSApiResponse(CustomerHelper.Message.InvalidData, HttpStatusCode.BadRequest).SetDetail($@"There are Field ({msg}) are required!"));
                 }
-                if (!_db.LSCUSTOMERs.Any(s => s.EMAIL == model.Email && s.DB_CODE == model.Database))
+                if (_db.LSCUSTOMERs.Any(s => s.EMAIL == model.Email && s.ID!=model.Id))
                 {
-                    return Ok(new LSApiResponse(CustomerHelper.Message.NotFound, HttpStatusCode.InternalServerError).SetDetail());
+                    return Ok(new LSApiResponse(CustomerHelper.Message.EmailExisted, HttpStatusCode.InternalServerError).SetDetail());
                 }
                 var find = _db.LSCUSTOMERs.FirstOrDefault(s => s.ID == model.Id && s.DB_CODE == model.Database);
                 if (find == null) return Ok(new LSApiResponse(CustomerHelper.Message.NotFound, HttpStatusCode.BadRequest).SetDetail());

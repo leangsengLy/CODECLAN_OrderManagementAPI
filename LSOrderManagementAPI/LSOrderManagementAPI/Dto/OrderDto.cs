@@ -19,6 +19,7 @@ namespace LSOrderManagementAPI.Controllers
         public string CustomerAddress { get; set; }
         public string ProductName { get; set; }
         public int Qty { get; set; }
+        public int ProductId { get; set; }
         public decimal UnitPrice { get; set; }
         public decimal SubTotal { get; set; }
 

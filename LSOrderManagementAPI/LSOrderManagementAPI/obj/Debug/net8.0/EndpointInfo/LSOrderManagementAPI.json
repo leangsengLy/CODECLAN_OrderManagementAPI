@@ -675,26 +675,6 @@
           "id": {
             "type": "integer",
             "format": "int32"
-          },
-          "pages": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "records": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "search": {
-            "type": "string",
-            "nullable": true
-          },
-          "orderBy": {
-            "type": "string",
-            "nullable": true
-          },
-          "orderDir": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -702,7 +682,7 @@
       "OrderItem": {
         "type": "object",
         "properties": {
-          "itemIds": {
+          "itemId": {
             "type": "integer",
             "format": "int32"
           },

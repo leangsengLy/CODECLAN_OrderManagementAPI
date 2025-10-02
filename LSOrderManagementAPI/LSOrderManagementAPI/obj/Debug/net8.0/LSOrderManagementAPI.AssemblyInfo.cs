@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LSOrderManagementAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2399f2aa229a7432317ecb324bc914b7ebc0d68b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09fc9a1309dc97344314bd928cc125e9af1423ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("LSOrderManagementAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LSOrderManagementAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
